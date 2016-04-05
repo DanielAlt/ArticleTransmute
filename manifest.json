@@ -1,0 +1,81 @@
+{
+    "name": "News Article Substitutions",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "icons": ["assets/logo.png"]
+    },
+
+  "content_scripts": [
+  {
+    "matches": [
+      "http://*.cnn.com/*", 
+      "https://*.cnn.com/*",
+      "http://news.yahoo.com/*",
+      "https://news.yahoo.com/*",
+      "http://news.google.com/*",
+      "https://news.google.com/*",
+      "http://www.huffingtonpost.ca/*",
+      "https://www.huffingtonpost.ca/*",
+      "http://www.nytimes.com/*",
+      "https://www.nytimes.com/*",
+      "http://www.foxnews.com/*",
+      "https://www.foxnews.com/*",
+      "http://www.nbcnews.com/*",
+      "https://www.nbcnews.com/*",
+      "http://www.dailymail.co.uk/*",
+      "https://www.dailymail.co.uk/*",
+      "http://www.washingtonpost.com/*",
+      "https://www.washingtonpost.com/*",
+      "http://www.theguardian.com/*",
+      "https://www.theguardian.com/*",
+      "http://online.wsj.com/*",
+      "https://online.wsj.com/*",
+      "http://abcnews.go.com/*",
+      "https://abcnews.go.com/*",
+      "http://www.bbcnews.co.uk/*",
+      "https://www.bbcnews.co.uk/*",
+      "http://www.usatoday.com/*",
+      "https://www.usatoday.com/*",
+      "http://www.latimes.com/*",
+      "https://www.latimes.com/*"
+
+    ],
+    "js": ["jquery.min.js"]
+    },
+  {
+    "matches": [
+      "http://*.cnn.com/*", 
+      "https://*.cnn.com/*",
+      "http://news.yahoo.com/*",
+      "https://news.yahoo.com/*",
+      "http://news.google.com/*",
+      "https://news.google.com/*",
+      "http://www.huffingtonpost.ca/*",
+      "https://www.huffingtonpost.ca/*",
+      "http://www.nytimes.com/*",
+      "https://www.nytimes.com/*",
+      "http://www.foxnews.com/*",
+      "https://www.foxnews.com/*",
+      "http://www.nbcnews.com/*",
+      "https://www.nbcnews.com/*",
+      "http://www.dailymail.co.uk/*",
+      "https://www.dailymail.co.uk/*",
+      "http://www.washingtonpost.com/*",
+      "https://www.washingtonpost.com/*",
+      "http://www.theguardian.com/*",
+      "https://www.theguardian.com/*",
+      "http://online.wsj.com/*",
+      "https://online.wsj.com/*",
+      "http://abcnews.go.com/*",
+      "https://abcnews.go.com/*",
+      "http://www.bbcnews.co.uk/*",
+      "https://www.bbcnews.co.uk/*",
+      "http://www.usatoday.com/*",
+      "https://www.usatoday.com/*",
+      "http://www.latimes.com/*",
+      "https://www.latimes.com/*"
+    ],
+    "js": ["application.js"]
+    }]
+}
